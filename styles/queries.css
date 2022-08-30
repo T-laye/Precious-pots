@@ -100,8 +100,9 @@
   }
   .menu {
     justify-self: center;
-    width: 50%;
+    /* width: 50%; */
     grid-template-columns: 1fr 1fr;
+    padding: 5rem;
   }
 
   .thursday:hover,
@@ -224,7 +225,6 @@
 
   .details p {
     width: 100%;
-    text-align: center;
   }
 
   .service {
@@ -261,7 +261,7 @@
 }
 
 /* ****************************/
-/*BELOW 590px*/
+/*BELOW 288px*/
 /******************************/
 @media screen and (max-width: 18em) {
   h1 {
@@ -283,4 +283,10 @@
   .contacts {
     padding: 1.2rem;
   }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  place-items: center;
 }

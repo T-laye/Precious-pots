@@ -30,7 +30,7 @@
 .details p {
   color: #180d00;
   font-size: 2.4rem;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 4rem;
   font-weight: 500;
 }
@@ -51,7 +51,7 @@ select {
 }
 
 input::placeholder {
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 .form input,
@@ -64,7 +64,8 @@ select {
   border-radius: 1.6rem;
   font-family: cursive;
   border: none;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+  /* background-color: ; */
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.158);
 }
 
 .form input {
@@ -77,13 +78,12 @@ select {
 .btn {
   position: absolute;
   bottom: 5%;
-  left: 40%;
   display: flex;
   place-content: center;
   display: inline-block;
   color: #260101;
   font-weight: 500;
-  left: 35%;
+  left: 40%;
   padding: 1.2rem 2.4rem;
   font-size: 1.8rem;
   border-radius: 1.6rem;
@@ -99,7 +99,6 @@ select {
 .btn:hover {
   color: #d9d9d9;
   background-color: #180d00;
-  transform: translateY(-1rem);
   background-position: left bottom;
 }
 

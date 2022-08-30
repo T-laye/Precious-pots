@@ -37,10 +37,6 @@
   color: #fff;
 }
 
-.price-list:hover .menu-title {
-  /* display: none; */
-}
-
 .price-list {
   letter-spacing: 1px;
   height: 50vh;
