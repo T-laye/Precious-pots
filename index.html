@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Precious pot offers food delivery services. Healthy and tasty meals on special days of the week."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/hero.css" />
+    <link rel="stylesheet" href="/styles/service.css" />
+    <link rel="stylesheet" href="/styles/meal.css" />
+    <link rel="stylesheet" href="/styles/testimonials.css" />
+    <link rel="stylesheet" href="/styles/form.css" />
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <link rel="stylesheet" href="/styles/queries.css" />
+
+    <link rel="icon" href="./assets/icons/favi icon.png" />
+
+    <title>Precious pot</title>
+  </head>
+  <body class="sticky"> 
+    <!-- main section of body -->
+
+    <main>
+      <section class="hero-section" id="hero">
+        <!-- header section  -->
+
+        <header class="header">
+          <div class="logo-container">
+            <img src="./assets/icons/potsss.png" alt="Precious pots logo" />
+            <p class="logo-name">Precious Pots</p>
+          </div>
+          <nav class="nav-bar">
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+        <div class="writeup">
+          <h1>
+            We specialize in delivering <br />
+            healthy but tasty meals <br />
+            at your door step.
+          </h1>
+          <div class="input-div">
+            <p class="input" ></p>
+          </div>
+          <div>
+            <a class="btn-cta" href="#order">Order Now</a>
+          </div>
+        </div>
+        <!-- <div class="hero-pics">pics</div> -->
+      </section>
+
+      <section class="service" id="service">
+        <div class="service">
+          <h2 class="service-heading">OUR SERVICES</h2>
+          <div class="service-text">
+            We take orders any day of the week but deliveries are only made on
+            thursdays, saturdays and Sundays respective of the dish according to
+            the menu.
+          </div>
+          <div class="menu grid" id="menu">
+            <div class="price-list thursday">
+              <div class="menu-title">
+                <h3>Thursday</h3>
+              </div>
+              <ul class="meals">
+                <li>
+                  Spaghetti and Turkey <br />
+                  <span class="price">&#8358;3,500 </span>
+                </li>
+                <li>
+                  Spaghetti and Chicken <br />
+                  <span class="price">&#8358;3,000 </span>
+                </li>
+                <li>
+                  Spaghetti and Fish <br />
+                  <span class="price">&#8358;2,500 </span>
+                </li>
+                <li>
+                  Spaghetti and Beef <br />
+                  <span class="price">&#8358;2,000 </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="price-list saturday">
+              <div class="menu-title">
+                <h3>Saturday</h3>
+              </div>
+              <ul class="meals">
+                <li>
+                  Pepper stew and rice <br />
+                  <span class="price">&#8358;2,500 </span>
+                </li>
+                <li>
+                  Assorted Pepper stew <br />
+                  <span class="price">&#8358;3,000 </span>
+                </li>
+                <li>
+                  Assorted Pepper soup <br />
+                  <span class="price">&#8358;3,500 </span>
+                </li>
+            </div>
+
+            <div class="price-list sunday">
+              <div class="menu-title">
+                <h3>Sunday</h3>
+              </div>
+              <ul class="meals">
+                <li>
+                 Jollof and Chicken  <br />
+                  <span class="price">&#8358;3,500 </span>
+                </li>
+                <li>
+                  Jollof and Turkey   <br />
+                  <span class="price">&#8358;4,000 </span>
+                </li>
+                <li>
+                  Kpomo Sauce  <br />
+                  <span class="price">&#8358;3,500 </span>
+                </li>
+            </div>
+           <div class="price-list side">
+              <div class="menu-title">
+                <h3>Side Dish</h3>
+              </div>
+              <ul class="side-dish">
+                <li>         
+                  Sausage <br />
+                  <span class="price">&#8358;500 </span>
+                </li>
+                <li>
+                  Plantain  <br />
+                  <span class="price">&#8358;500 </span>
+                </li>
+                <li>
+                  Beans   <br />
+                  <span class="price">&#8358;500 </span>
+                </li>
+                <li>
+                  Fish <br />
+                  <span class="price">&#8358;1,000 </span>
+                </li>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="">
+          <div class="meal-slide">
+            
+            <h2 class="meal-heading">Meals</h2>
+            <div class="slider">
+              <div class="slider-track">
+                <!-- slides -->
+                <div class="slide">
+                  <img src="./assets/meals/meal 1.jpg" alt="">
+                </div>
+                <div class="slide">
+                <img src="./assets/meals/meal 2.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 3.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 4.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 5.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 7.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 8.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 9.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 10.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/hero 2.jpg" alt="meal image">
+              </div>
+
+              <!-- slide replica -->
+              <div class="slide">
+                <img src="./assets/meals/meal 1.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 2.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 3.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 4.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 5.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 7.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 8.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 9.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/meal 10.jpg" alt="meal image">
+              </div>
+              <div class="slide">
+                <img src="./assets/meals/hero 2.jpg" alt="meal image">
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials container" id="testimonials">                        
+        <h2 class="service-heading">Customer Reviews</h2>
+        <div class="testimonial container">
+          <div class="comments">
+            <div class="profile-pic">  
+              <img src="./assets/customers/dave.jpg" alt="Dave">
+            </div>
+            <p class="comment">Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.
+            <span class="profile-name">&mdash; Dave Bryson</span>
+            </p>
+          </div>
+          <div class="comments">
+            <div class="profile-pic">  
+              <img src="./assets/customers/glory.jpg" alt="Glory">
+            </div>
+            <p class="comment">Nice one Baeeee 😘👌
+            <span class="profile-name">&mdash; Glory😍😍</span>
+            </p>
+          </div>
+          <div class="comments">
+            <div class="profile-pic">  
+              <img src="./assets/customers/grace.jpg" alt="grace">
+            </div>
+            <p class="comment"> Baby girl doing the most .. Love you to the moon and back 💕😘💕
+            <span class="profile-name">&mdash; Grace 😇😇</span>
+            </p>
+          </div>
+          <div class="comments">
+            <div class="profile-pic">  
+              <img src="./assets/customers/Laye.jpg" alt="Laye">
+            </div>
+            <p class="comment">The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!
+            <span class="profile-name">&mdash; Laye 💖🎶</span>
+            </p>
+          </div>
+          <div class="comments">
+            <div class="profile-pic">  
+              <img src="./assets/customers/hannah.jpg" alt="Hannah">
+            </div>
+            <p class="comment">I got Precious pots for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.
+            <span class="profile-name">&mdash; Hannah 👧🧑🧑</span>
+            </p>
+          </div>
+          <div class="comments">
+            <div class="profile-pic">  
+              <img src="./assets/customers/Ruth.jpg" alt="Ruth">
+            </div>
+            <p class="comment">Precious pots is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!
+            <span class="profile-name">&mdash; Ruth 💞💕</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="forms container" id="order">
+        <div class="form"> 
+          <div class="details">
+            <h2 class="form-heading">Get your meals now!</h2>
+            <p>Healthy, tasty and hassle-free meals <br> are waiting for you. <br/> Start eating well today!</p>
+            <form class="cta-form" name="placed Order" netlify>
+              <div>
+                <label for="full-name">Full-Name</label>
+                <input id="full-name" type="text" placeholder="Joseph Achim" name="full-name" required>
+              </div>
+              <div>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="josephachim@example.com" name="email" required>
+              </div>
+              <div>
+                <label for="tel">Phone Number</label>
+                <input id="tel" type="number" placeholder="+234********" name="tel" required>
+              </div>
+              <div>
+                <label for="food-ordered">What will you like to eat &quest;</label>
+                <select id="select-where" name="food-ordered" required> 
+                  <option value>Please choose one</option>
+                  <option value="Spaghetti and Chicken  &#8358 3,000">Spaghetti and Chicken  &#8358 3,000</option>
+                  <option value="facebook">Spaghetti and Turkey  &#8358 3,500</option>
+                  <option value="Spaghetti and Fish  &#8358 2,500">Spaghetti and Fish  &#8358 2,500
+                  </option>
+                  <option value="Spaghetti and Beef  &#8358 2,000">Spaghetti and Beef  &#8358 2,000</option>
+                  <option value="Pepper stew and rice &#8358 2,500 ">Pepper stew and rice &#8358 2,500 </option>
+                  <option value="Assorted Pepper stew &#8358 3,000">Assorted Pepper stew &#8358 3,000</option>
+                  <option value="Assorted Pepper soup &#8358 3,500">Assorted Pepper soup &#8358 3,500</option>
+                  <option value="jollof and Chicken   &#8358 3,500">jollof and Chicken   &#8358 3,500</option>
+                  <option value="jollof and Turkey   &#8358 4,000">jollof and Turkey   &#8358 4,000</option>
+                  <option value="Sausage &#8358 500">Sausage &#8358 500</option>
+                  <option value="Kpomo Sauce   &#8358 3,500">Kpomo Sauce   &#8358 3,500</option>
+                  <option value="plantain &#8358 500">plantain &#8358 500</option>
+                  <option value="beans &#8358 500">beans &#8358 500</option>
+                  <option value="fish &#8358 1000">fish &#8358 1000</option>
+                </select>
+              </div>
+              <button class="btn">Order now</button>
+            </form>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="logo-col">
+            <a href="#">
+              <img src="/assets/icons/precious logo.png" alt="logo">
+            </a> 
+          </div>
+          <ul class="contacts">
+            <li> <img src="/assets/icons/mail-outline.svg" alt=""> <a href="mailto:preciouspots@gmail.com">
+              preciouspots@gmail.com
+            </a></li>
+            <li><img src="/assets/icons/logo-instagram.svg" alt=""> 
+              @precious_potz
+            </li>
+            <li><img src="/assets/icons/logo-facebook.svg" alt=""> @precious_pots</li>
+            <li><a href="tel:07083920938">
+              <img src="/assets/icons/logo-whatsapp.svg" alt="logo-whatsapp"> 07083920938 </a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>;
+    <script>
+      let typed = new Typed(".input", {
+      strings: ["You don't need a silver 🥄 spoon to eat good food 😋.","Life is uncertain 🙂 eat first.", "Before you face any problem 😢 try chop first abeg🙏."],
+      typeSpeed: 110,
+      backSpeed:30,
+      loop:true
+});
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

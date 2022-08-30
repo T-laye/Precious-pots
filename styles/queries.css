@@ -1,0 +1,286 @@
+/* ***************************
+*   BELOW 1200px
+******************************/
+@media screen and (max-width: 75rem) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* ***************************
+*   BELOW 1024px (Tablets)
+******************************/
+@media screen and (max-width: 64rem) {
+  html {
+    font-size: 50%;
+  }
+  .testimonial {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ****************************/
+/*BELOW 950px (phones)*/
+/******************************/
+@media screen and (max-width: 60em) {
+  /***************** 
+  Mobile Navigation
+  ******************/
+
+  .header {
+    justify-content: space-between;
+    padding-right: 4.8rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+  .nav-bar {
+    background-color: rgba(0, 0, 0, 0.726);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    /* hide navigation */
+    /* Allows no animations */
+    /* display: none; */
+
+    /* 1) Hide element visually */
+    opacity: 0;
+
+    /* 2) Make it uncaccessible to mouse and keyboard  */
+    pointer-events: none;
+
+    /* 3) Hide from screen readers */
+    visibility: hidden;
+  }
+
+  /* to get nav back , reset all thats been set */
+  .nav-open .nav-bar {
+    opacity: 0.97;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3.6rem;
+    font-family: monospace;
+  }
+
+  /* others */
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    justify-self: center;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .thursday:hover,
+  .saturday:hover,
+  .sunday:hover,
+  .side:hover {
+    transform: translateY(-1.5rem);
+  }
+
+  .service-text {
+    font-size: 2.4rem;
+    padding: 0 4.8rem;
+  }
+
+  .price-list h3 {
+    font-size: 2rem;
+  }
+
+  .meals {
+    font-size: 1.6rem;
+    padding: 5px;
+  }
+
+  .meals li {
+    font-size: 1.4rem;
+  }
+
+  .meals li .price,
+  .side-dish li {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* ****************************/
+/*BELOW 744px(smaller tablets)*/
+/******************************/
+@media screen and (max-width: 47em) {
+  h1 {
+    font-size: 4.8rem;
+  }
+  .contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu {
+    column-gap: 20%;
+  }
+  .price-list {
+    width: 130%;
+  }
+}
+
+/* ****************************/
+/*BELOW 644px*/
+/******************************/
+@media screen and (max-width: 41em) {
+  .testimonial {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .comments {
+    height: 14rem;
+    display: flex;
+    flex-direction: row;
+    /* place-items: center; */
+    gap: 1.2rem;
+    justify-content: flex-start;
+    /* padding: 1.8rem; */
+    padding: 0;
+  }
+
+  .comment {
+    display: inline-block;
+    padding: 1.2rem;
+    text-align: left;
+    width: 80%;
+    /* margin-left: 1.2rem; */
+  }
+
+  .profile-pic {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+  }
+
+  .profile-pic img {
+    height: 100%;
+  }
+
+  .side-dish {
+    /* gap: 1rem; */
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ****************************/
+/*BELOW 590px*/
+/******************************/
+@media screen and (max-width: 37em) {
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .form-heading {
+    padding: 2rem 0rem;
+  }
+  .form {
+    justify-content: center;
+  }
+  .form {
+    width: 90%;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+    row-gap: 3.6rem;
+  }
+
+  .details p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .service-text {
+    font-size: 2.4rem;
+    padding: 0 0;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+
+  .meals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .side-dish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ****************************/
+/*BELOW 590px*/
+/******************************/
+@media screen and (max-width: 18em) {
+  h1 {
+    font-size: 2.4rem;
+    padding: 0 1.2rem;
+  }
+  .input-div p {
+    font-size: 1.6rem;
+  }
+
+  .comment {
+    font-size: 1.2rem;
+  }
+
+  .form {
+    width: 125%;
+  }
+
+  .contacts {
+    padding: 1.2rem;
+  }
+}

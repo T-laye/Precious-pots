@@ -1,0 +1,76 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+
+- Font weight
+Default: 400
+700
+
+- Line heights
+Default: 1
+
+--- 02 COLORS
+
+- primary:#a00909  #da0000  #e67e22;
+- Tints: #fdf2e9
+- shades:
+- Accents
+_ Greys:
+#555
+#333
+
+
+--- 05 SHADES 
+--- 06 BORDER_RADIUS 
+--- 07 WHITESPACE 
+
+- spacing system (px)
+2/4/8/12/16/32/48/64/80/96/128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 2.4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}

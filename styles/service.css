@@ -1,0 +1,127 @@
+/* SERVICE SECTion */
+
+.service {
+  /* background-color: #fdf2e9; */
+  /* background-color: #7b9aa6; */
+  /* background-color: #c5d1d9; */
+  /* background-color: #a63f03; */
+  /* background-color: rgb(245, 159, 55); */
+  padding: 2.4rem 3.6rem;
+}
+
+.service-heading {
+  text-align: center;
+  color: #180d00;
+  font-size: 2.6rem;
+  /* letter-spacing: 1px; */
+  font-weight: 700;
+}
+.service-text {
+  font-size: 2.2rem;
+  color: #180d00;
+  margin-bottom: 7.2rem;
+  line-height: 1.5;
+  /* text-align: center; */
+  font-weight: 500;
+}
+
+.menu {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+}
+
+.menu-title {
+  background-color: rgba(24, 13, 0, 0.596);
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.price-list:hover .menu-title {
+  /* display: none; */
+}
+
+.price-list {
+  letter-spacing: 1px;
+  height: 50vh;
+  color: #fff;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding-bottom: 1.2rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 50%,
+    rgb(24, 13, 0) 50%
+  );
+  background-size: 100% 200%;
+  transition: all 0.5s;
+}
+
+.thursday:hover {
+  /* transform: translateY(-1rem); */
+  background-position: right;
+  background-image: url(../assets/meals/hero\ 3.jpg);
+}
+
+.saturday:hover {
+  /* transform: translateY(-3rem); */
+  background-position: right;
+  background-image: url(../assets/meals/meal\ 8.jpg);
+}
+
+.sunday:hover {
+  /* transform: translateY(-3rem); */
+  background-position: right;
+  background-image: url(../assets/meals/meal\ 1.jpg);
+}
+
+.side:hover {
+  /* transform: translateY(-3rem); */
+  background-position: right;
+  background-image: url(../assets/meals/Nigerian-Sausage-Roll-How-To-Prepare-Nigerian-Sausage-Roll-800x445.jpg);
+}
+.price-list h3 {
+  /* color: white; */
+  font-family: cursive;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.meals {
+  display: grid;
+  /* font-family:  */
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1.2rem;
+  column-gap: 5%;
+  row-gap: 80%;
+  font-size: 2.4rem;
+}
+
+.meals li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.meals li .price {
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+.side-dish li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.side-dish {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  row-gap: 4.8rem;
+  place-items: center;
+  padding: 2.4rem 2.4rem;
+}

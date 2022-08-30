@@ -1,0 +1,33 @@
+////For Hero section
+We specialize in delivering healthy but tasty meals at your door step.
+You don't need a silver spoon to eat good food. Life is uncertain 🙂 eat first. Before you face any problem 😢 try chop first abeg🙏. 
+
+//// Services
+We take orders any day of the week but deliveries are mad only on thursdays, saturdays and Sundays respective of the dish according to the menu.
+
+
+
+//// Meal slide and Menu
+//Thursdays
+Spaghetti and Chicken  #3,000
+Spaghetti and Turkey  #3,500
+Spaghetti and Fish  #2,500
+Spaghetti and Beef  #2,000
+
+//Saturdays
+Pepper stew and rice         #2,500 
+Assorted Pepper stew         #3,000
+Assorted Pepper soup         #3,500 
+
+//Sundays
+jollof and Chicken   #3,500
+jollof and Turkey   #4,000
+Kpomo Sauce   #3,500
+
+// Side Dish
+Sausage #500
+plantain 500
+beans 500
+fish 1000
+
+//////Customer review

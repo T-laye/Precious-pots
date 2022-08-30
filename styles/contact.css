@@ -1,0 +1,38 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.logo-col {
+  width: 25rem;
+  justify-self: flex-start;
+}
+
+.logo-col img {
+  width: 100%;
+}
+.contacts {
+  list-style: none;
+  display: flex;
+  gap: 3.6rem;
+  padding: 0 1.2rem;
+}
+
+.contacts li,
+.contacts li a {
+  display: block;
+  /* background-color: aqua; */
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #180d00;
+  font-weight: 600;
+}
+
+.contacts img {
+  display: block;
+  width: 3.2rem;
+  margin-bottom: 1.2rem;
+  color: #180d00;
+}
